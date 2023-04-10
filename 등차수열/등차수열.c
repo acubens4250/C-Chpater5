@@ -23,7 +23,7 @@ int adding(int num) {
 	else return (adding(num - 1) + 2);
 }
 
-int facto(int num) {
+int facto(int num) {  //Àç±Í ÇÔ¼ö
 	if (num == 1) return 1;
 	else return (num * facto(num - 1));
 }
